@@ -6,6 +6,7 @@ if ($name == "Yoshiko") {
   echo "Yoshikoではありません。";
 }
 echo "\n";
+$total = 0;
 for ($i = 1; $i <= 10000; $i++) {
   $total += $i;
 }
@@ -23,3 +24,4 @@ if($i % 5 == 0){
     echo $i;
     echo "\n";
 }
+

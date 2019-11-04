@@ -18,6 +18,16 @@ if ($height < 150) {
 }else {
   echo "ご乗車になれます。";
 }
+$height = 230;
+echo "\n";
+$weather = "晴れ";
+if ($weather == "晴れ") {
+  echo "教室";
+} else if ($weather == "雨"){
+  echo "家";
+}else if ($weather == "曇り"){
+  echo "近くのカフェ";
+}
 $weekday = "月曜";
 echo "\n";
 switch ($weekday) {
